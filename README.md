@@ -39,3 +39,14 @@ Before: inspect status, tracker, progress log and relevant recent evidence. Afte
 
 ## Progress status vocabulary
 Not started; Introduced; Practising; Completed; Demonstrated; Deferred. A discussion alone is not evidence of implementation or mastery.
+
+## Standard lesson layout (mandatory)
+
+Every teaching response must have two visibly separate parts, in this order:
+
+1. **Pre-lesson / course administration** — a concise section containing the learning objectives, prerequisites or materials (when relevant), repository/progress verification, starting checkpoint, and any setup or execution-status notes. Keep verification and administration outside the instructional lesson. Do not repeat the same status information inside the lesson.
+2. **A clearly separate lesson-start heading** — use a prominent heading such as `# Lesson: [topic]` or `## Study: [topic]`. The actual teaching begins only after this heading. Put explanations, intuition, mathematics, worked examples, diagrams, code, practice and knowledge checks here. Do not put objectives, repository verification, file inventories or progress audits inside this lesson body.
+
+Use a short separator or whitespace between the two parts so the transition is unmistakable. For a sample/test lesson, label it as a sample and do not change official progress records unless the learner explicitly asks. For a normal study session, record progress only after reviewing actual work and evidence.
+
+The lesson-start heading is the learner's clear signal that the study content begins. Keep the teaching focused and deliver it in digestible segments rather than dumping an entire course day at once.
