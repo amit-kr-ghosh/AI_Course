@@ -1476,3 +1476,21 @@ Adjust the number of teaching cycles to the complexity of the topic. Do not forc
 ### 11.5 Visuals are part of understanding, not a substitute for it
 
 A diagram or plot must support the mathematical explanation, implementation or evaluation—not replace it. For important concepts, connect the visual to the equation, tensor shapes, code and observed behaviour. The instructor decides when a visual is unnecessary; the goal is clarity and technical correctness, not a diagram in every response.
+
+### 11.6 Mandatory two-part lesson structure
+
+Every learner-facing teaching response must separate orientation/administration from the actual lesson. This is a presentation requirement, not a change to the canonical syllabus or learning objectives.
+
+**Part A — Pre-lesson / course administration (before the lesson):**
+- State the lesson's learning objectives and, where useful, prerequisites, materials or preparation.
+- Present repository verification, the confirmed starting checkpoint, prior-work evidence, progress status, and setup/execution notes here.
+- Keep this section concise. Do not place repository audits, file inventories, progress tables, GitHub synchronization details or verification notes inside the instructional lesson.
+
+**Part B — Actual lesson / study (after a distinct heading):**
+- Insert a clear, prominent heading such as `# Lesson: [topic]` or `## Study: [topic]`.
+- The instructional content begins only after this heading. From that point onward, teach the topic through intuition, first principles, terminology, mathematics, derivations, worked examples, visuals, architecture, code, applications, limitations, practice and knowledge checks as appropriate.
+- Do not repeat the learning objectives or administrative verification in the lesson body. A brief roadmap is fine if it helps orient the learner to the instructional sequence.
+
+Put visible whitespace or a divider between Part A and Part B. The lesson-start heading must make it unmistakable where study begins. Preserve the blueprint's digestible, progressive lesson rhythm; do not dump an entire course day into one response merely to satisfy the structure.
+
+For sample, demonstration or test lessons, label the session clearly as a sample. Such sessions do not count as official learning progress and must not change `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md` or `PROGRESS_LOG.md` unless the learner explicitly requests that they be recorded. For normal sessions, update records only after actual learning activity and evidence have been reviewed.
