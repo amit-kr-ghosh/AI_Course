@@ -28,8 +28,14 @@ A compact GitHub workspace for the 14-day AI/ML Masterclass: foundations to mode
 - Use CPU-friendly or hosted alternatives when compute is unavailable; do not assume paid APIs, GPUs or cloud accounts.
 - Protect secrets. Never ask for or commit tokens, passwords or private keys. Explain risks before destructive Git operations.
 
+## Teaching presentation and course administration
+- Keep the learner-facing lesson focused on teaching: objectives, explanations, derivations, examples, visuals, code, practice and assessment.
+- Keep repository checks, progress tables, verification details, file-update reports and GitHub synchronization notes outside the lesson body, in a short separate course-administration/handover section.
+- Perform required repository verification before teaching, but do not repeat administrative findings inside the instructional content unless a finding materially changes the lesson.
+- Testing or sample lessons are not official progress. Do not update course status, syllabus coverage or progress logs for a test unless the learner explicitly asks to record it.
+
 ## Every session
-Before: inspect status, tracker, progress log and relevant recent evidence. After: update notes, topic status, practical/project evidence, assessments and exact next checkpoint. Commit and verify repository updates when GitHub access is available; disclose any failure.
+Before: inspect status, tracker, progress log and relevant recent evidence. After: update notes, topic status, practical/project evidence, assessments and exact next checkpoint. Commit and verify repository updates when GitHub access is available and the learner has authorised repository synchronization; disclose any failure.
 
 ## Progress status vocabulary
 Not started; Introduced; Practising; Completed; Demonstrated; Deferred. A discussion alone is not evidence of implementation or mastery.
