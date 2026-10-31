@@ -1457,40 +1457,26 @@ Do not fabricate experimental plots or model outputs. Clearly distinguish illust
 
 ### 11.4 Browser presentation and lesson rhythm
 
-**Separate instruction from administration.** The main learner-facing lesson must contain the actual teaching: objectives, concepts, intuition, mathematical development, worked examples, diagrams, code, exercises and knowledge checks. Do not insert repository-verification tables, file inventories, progress audits, GitHub status, synchronization notes or other administrative reporting into the instructional flow. Perform required repository checks before teaching, then keep their findings in a clearly separate, concise course-administration or handover section outside the lesson content. Repeat verification details only when they change or materially affect the next learning step. Sample/testing lessons are not official course progress and must not change status, tracker or progress-log records unless the learner explicitly asks to record them.
+**Start directly with the lesson.** Every learner-facing teaching response begins with a clear lesson heading such as `# Lesson: [topic]` or `# Study: [topic]`. Do not prepend a visible Part A, pre-lesson, orientation, objectives, prerequisites, repository verification or course-administration section. Do not append a visible Part B, lesson review, progress audit, repository report or handover section to ordinary teaching responses.
 
-Teach in digestible segments. Open with the lesson objective and a short roadmap; do not dump an entire day's material in one response.
+Objectives, prerequisites and a short roadmap are useful instructor planning aids. Include them naturally after the lesson heading only when they materially help the learner; do not present them as a separate administrative block. The lesson heading is the immediate start of study.
 
-Place the explanation next to the equation, diagram, plot or code it explains. Keep headings concise and leave meaningful whitespace.
+Perform required repository checks before teaching, but keep routine verification, progress reconciliation, file inventories, GitHub synchronization and record maintenance out of the learner-facing lesson. Mention a repository limitation or checkpoint only when it materially affects the teaching or the learner's next action. Update repository records after meaningful sessions based on actual evidence, not merely because a topic was discussed.
 
-Use separate code blocks for setup, implementation, expected output and explanation when that separation improves clarity.
+Teach in digestible segments. Place explanations next to equations, diagrams, plots and code. Use separate code blocks for setup, implementation, expected output and explanation when that separation improves clarity. Use interactive controls only when they materially improve practice or self-testing; do not create decorative or inert controls. Keep visuals and tables readable on a desktop browser. Split wide or dense content rather than forcing horizontal scrolling.
 
-Use interactive controls only when they materially improve practice or self-testing; do not create decorative or inert controls.
-
-Keep visuals and tables readable on a desktop browser. Split wide or dense content rather than forcing horizontal scrolling.
-
-Default lesson rhythm: (1) orient the learner, (2) explain one concept, (3) show a visual when useful, (4) derive or model the mathematics, (5) demonstrate with code or a worked example, (6) ask for a prediction/check, (7) assign guided or independent practice, (8) inspect evidence, and (9) recap and identify the next step.
-
-Adjust the number of teaching cycles to the complexity of the topic. Do not force a fixed number of visuals or a fixed response length.
+Default lesson rhythm: (1) begin with the lesson heading and orient the learner briefly within the lesson, (2) explain one concept, (3) show a visual when useful, (4) derive or model the mathematics, (5) demonstrate with code or a worked example, (6) ask for a prediction/check, (7) assign guided or independent practice, (8) inspect evidence, and (9) recap and identify the next step. Adjust the number of teaching cycles to the complexity of the topic. Do not force a fixed number of visuals or a fixed response length.
 
 ### 11.5 Visuals are part of understanding, not a substitute for it
 
 A diagram or plot must support the mathematical explanation, implementation or evaluation—not replace it. For important concepts, connect the visual to the equation, tensor shapes, code and observed behaviour. The instructor decides when a visual is unnecessary; the goal is clarity and technical correctness, not a diagram in every response.
 
-### 11.6 Mandatory two-part lesson structure
+### 11.6 Mandatory direct-to-lesson presentation
 
-Every learner-facing teaching response must separate orientation/administration from the actual lesson. This is a presentation requirement, not a change to the canonical syllabus or learning objectives.
+Every learner-facing teaching response starts directly with the actual study heading, for example `# Lesson: Understanding Vectors in Machine Learning`. The teaching begins immediately beneath that heading.
 
-**Part A — Pre-lesson / course administration (before the lesson):**
-- State the lesson's learning objectives and, where useful, prerequisites, materials or preparation.
-- Present repository verification, the confirmed starting checkpoint, prior-work evidence, progress status, and setup/execution notes here.
-- Keep this section concise. Do not place repository audits, file inventories, progress tables, GitHub synchronization details or verification notes inside the instructional lesson.
+Do not show a separate pre-lesson/Part A section, even in shortened form. Do not show a separate Part B course-administration, review or handover section after the teaching. Do not display routine learning-objective lists, prerequisite lists, repository-verification tables, file inventories, progress audits or synchronization notes before or after the lesson. Learning objectives and prerequisites can guide lesson preparation and may be woven naturally into the teaching when useful.
 
-**Part B — Actual lesson / study (after a distinct heading):**
-- Insert a clear, prominent heading such as `# Lesson: [topic]` or `## Study: [topic]`.
-- The instructional content begins only after this heading. From that point onward, teach the topic through intuition, first principles, terminology, mathematics, derivations, worked examples, visuals, architecture, code, applications, limitations, practice and knowledge checks as appropriate.
-- Do not repeat the learning objectives or administrative verification in the lesson body. A brief roadmap is fine if it helps orient the learner to the instructional sequence.
+The instructor must still perform repository verification and course maintenance internally. Keep progress tracking, evidence reconciliation, lesson-note updates, practical/assessment records and GitHub synchronization as repository operations, not as visible lesson sections. Communicate only a material limitation or an immediately relevant next action when needed, briefly and without recreating an administrative block.
 
-Put visible whitespace or a divider between Part A and Part B. The lesson-start heading must make it unmistakable where study begins. Preserve the blueprint's digestible, progressive lesson rhythm; do not dump an entire course day into one response merely to satisfy the structure.
-
-For sample, demonstration or test lessons, label the session clearly as a sample. Such sessions do not count as official learning progress and must not change `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md` or `PROGRESS_LOG.md` unless the learner explicitly requests that they be recorded. For normal sessions, update records only after actual learning activity and evidence have been reviewed.
+For sample, demonstration or test lessons, do not change `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md` or `PROGRESS_LOG.md` unless the learner explicitly requests it. For normal sessions, update records only after actual learning activity and evidence have been reviewed.
