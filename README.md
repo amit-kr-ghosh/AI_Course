@@ -29,10 +29,12 @@ A compact GitHub workspace for the 14-day AI/ML Masterclass: foundations to mode
 - Protect secrets. Never ask for or commit tokens, passwords or private keys. Explain risks before destructive Git operations.
 
 ## Teaching presentation and course administration
-- Keep the learner-facing lesson focused on teaching: objectives, explanations, derivations, examples, visuals, code, practice and assessment.
-- Keep repository checks, progress tables, verification details, file-update reports and GitHub synchronization notes outside the lesson body, in a short separate course-administration/handover section.
-- Perform required repository verification before teaching, but do not repeat administrative findings inside the instructional content unless a finding materially changes the lesson.
-- Testing or sample lessons are not official progress. Do not update course status, syllabus coverage or progress logs for a test unless the learner explicitly asks to record it.
+
+- Start every learner-facing teaching response directly with the actual lesson heading, for example `# Lesson: [topic]` or `# Study: [topic]`. Do not prepend a visible Part A, pre-lesson, orientation, objectives, prerequisites, verification, or course-administration section.
+- Do not append a visible Part B, lesson review, progress audit, repository report, or handover section to ordinary teaching responses. Keep administration internal to the instructor workflow and update repository records when appropriate.
+- Learning objectives, prerequisites and a short roadmap may be incorporated naturally into the lesson after its heading when they materially help learning; do not create a separate pre-lesson block.
+- Verify repository status and prior evidence before teaching, but do not display routine verification details. Mention a repository limitation only when it materially affects what can responsibly be taught or recorded.
+- Sample/testing lessons are not official progress. Do not update course status, syllabus coverage or progress logs for a test unless the learner explicitly asks to record it.
 
 ## Every session
 Before: inspect status, tracker, progress log and relevant recent evidence. After: update notes, topic status, practical/project evidence, assessments and exact next checkpoint. Commit and verify repository updates when GitHub access is available and the learner has authorised repository synchronization; disclose any failure.
@@ -42,11 +44,16 @@ Not started; Introduced; Practising; Completed; Demonstrated; Deferred. A discus
 
 ## Standard lesson layout (mandatory)
 
-Every teaching response must have two visibly separate parts, in this order:
+The learner-facing response starts immediately with the lesson itself:
 
-1. **Pre-lesson / course administration** — a concise section containing the learning objectives, prerequisites or materials (when relevant), repository/progress verification, starting checkpoint, and any setup or execution-status notes. Keep verification and administration outside the instructional lesson. Do not repeat the same status information inside the lesson.
-2. **A clearly separate lesson-start heading** — use a prominent heading such as `# Lesson: [topic]` or `## Study: [topic]`. The actual teaching begins only after this heading. Put explanations, intuition, mathematics, worked examples, diagrams, code, practice and knowledge checks here. Do not put objectives, repository verification, file inventories or progress audits inside this lesson body.
+`# Lesson: [topic]`
 
-Use a short separator or whitespace between the two parts so the transition is unmistakable. For a sample/test lesson, label it as a sample and do not change official progress records unless the learner explicitly asks. For a normal study session, record progress only after reviewing actual work and evidence.
+or
 
-The lesson-start heading is the learner's clear signal that the study content begins. Keep the teaching focused and deliver it in digestible segments rather than dumping an entire course day at once.
+`# Study: [topic]`
+
+There is no visible pre-lesson section and no separate administrative section after the lesson. Teach progressively from the heading onward: intuition, terminology, first principles, mathematics, derivations, worked examples, visuals, code, applications, limitations, practice and knowledge checks as appropriate. Objectives and prerequisites are instructor planning aids; include them in the visible lesson only when useful, naturally and without a separate administrative wrapper.
+
+Repository verification, progress reconciliation, file updates, GitHub synchronization and session handover remain instructor-side/course-maintenance tasks. Do not show routine verification tables, file inventories, status summaries or progress reports in the learner-facing lesson. If a material limitation or an important checkpoint must be communicated, do so briefly and only when relevant.
+
+For sample, demonstration or test lessons, do not change official progress records unless the learner explicitly asks. For normal sessions, update records only after actual learning activity and evidence have been reviewed.
