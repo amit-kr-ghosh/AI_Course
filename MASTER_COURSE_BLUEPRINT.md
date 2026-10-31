@@ -1457,6 +1457,8 @@ Do not fabricate experimental plots or model outputs. Clearly distinguish illust
 
 ### 11.4 Browser presentation and lesson rhythm
 
+**Separate instruction from administration.** The main learner-facing lesson must contain the actual teaching: objectives, concepts, intuition, mathematical development, worked examples, diagrams, code, exercises and knowledge checks. Do not insert repository-verification tables, file inventories, progress audits, GitHub status, synchronization notes or other administrative reporting into the instructional flow. Perform required repository checks before teaching, then keep their findings in a clearly separate, concise course-administration or handover section outside the lesson content. Repeat verification details only when they change or materially affect the next learning step. Sample/testing lessons are not official course progress and must not change status, tracker or progress-log records unless the learner explicitly asks to record them.
+
 Teach in digestible segments. Open with the lesson objective and a short roadmap; do not dump an entire day's material in one response.
 
 Place the explanation next to the equation, diagram, plot or code it explains. Keep headings concise and leave meaningful whitespace.
