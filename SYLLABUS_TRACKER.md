@@ -1,10 +1,10 @@
 # AI / ML Masterclass — Syllabus Tracker
 
-Governing source: `MASTER_COURSE_BLUEPRINT.md`. This tracker is the live coverage ledger. All items begin as **Not started** until evidence is recorded.
+Governing source: `MASTER_COURSE_BLUEPRINT.md`. This tracker is the live coverage ledger.
 
 | Day | Topic | Coverage status | Math / concepts evidence | Practical evidence | Assessment / next action |
 |---|---|---|---|---|---|
-| 1 | Linear Algebra for Machine Learning | Not started | | | |
+| 1 | Linear Algebra for Machine Learning | Introduced | Scalars, vectors, matrices, tensors; shape, axes and dimensionality explained conceptually on 2026-11-01. | Not started | Continue with vector components and operations; no assessment requested. |
 | 2 | Calculus, Derivatives and Optimization | Not started | | | |
 | 3 | Probability, Statistics and Information Theory | Not started | | | |
 | 4 | Machine Learning Fundamentals | Not started | | | |
@@ -20,10 +20,10 @@ Governing source: `MASTER_COURSE_BLUEPRINT.md`. This tracker is the live coverag
 | 14 | RAG, Agents, AI Engineering, Deployment and Final Project | Not started | | | |
 
 ## Topic-level evidence ledger
-Add rows for individual syllabus subtopics when work begins. Keep the exact syllabus wording traceable to the Master Course Blueprint. A day may span multiple sessions.
 
 | Day | Exact topic / subtopic | Status | Explanation / derivation evidence | Code / notebook / output | Quiz / interview evidence | Next action |
 |---|---|---|---|---|---|---|
+| 1 | Mathematical objects: scalar, vector, matrix, tensor; dimensions, rank, shape, axes and indexing | Introduced | Conceptual lesson delivered 2026-11-01; examples connected to datasets, images, batches and neural networks. Array dimensionality distinguished from matrix rank. | No code executed. | None. | Vectors: components, coordinate interpretation, addition, subtraction, scalar multiplication and linear combinations. |
 
 ## Portfolio and parallel strands
 Track the nine projects, daily interview practice, research-paper reading and current-AI coverage in the relevant records under `Practicals_Projects/` and `Assessments/`. Do not mark a project demonstrated until its artifact has been reviewed or executed evidence has been inspected.
@@ -35,10 +35,8 @@ Track the nine projects, daily interview practice, research-paper reading and cu
 4. Do not equate quiz score with professional competence.
 5. Reconcile this tracker with Course Status and Progress Log every session.
 
-
 ## Concept-by-concept session tracking rule
 Do not mark an entire day complete because its topics were presented in one response. Teach and track individual syllabus subtopics (or small, explicitly named concept clusters). Update a topic's status only when the corresponding learning activity and evidence justify it. Record the exact last concept reached and next concept in the session handover. Pause between concepts for questions and clarification; never deliver a whole day in one go. Do not add checks or practice unless explicitly requested.
-
 
 ## Learner-controlled teaching, practice and assessment (mandatory)
 - The default is concept-first teaching, one concept or small connected concept group at a time. Explain thoroughly using intuition, terminology, derivations, worked examples, diagrams and AI/ML connections as appropriate.
@@ -47,7 +45,7 @@ Do not mark an entire day complete because its topics were presented in one resp
 - Questions with answers are allowed when they support teaching: include solved examples, illustrative questions followed immediately by their answers and explanations, worked calculations, and conceptual Q&A as needed. These are teaching explanations, not tasks for the learner to complete. Do not disguise an unanswered exercise as an example.
 - Do not append quizzes, knowledge checks, "try this" prompts, unsolved exercises or homework to a concept explanation. A natural invitation to ask questions or request another explanation is fine.
 - Preserve every quiz, assessment, practical, project and interview requirement in the syllabus. These remain required course components, but they are learner-controlled and must not be delivered before the two opt-in conditions above are met.
-- The learner controls pacing. Stay with a concept for as long as needed; do not rush to finish a day or advance because of the calendar.
+- The learner controls pacing. Stay with a topic for as long as needed; do not rush to finish a day or advance because of the calendar.
 - Record only activities actually requested and completed. Never mark a quiz, assessment, practical or implementation as completed without evidence.
 
 ## Pending syllabus activity reminder (mandatory)
