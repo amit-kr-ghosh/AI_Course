@@ -2,27 +2,32 @@
 
 **Repository:** `amit-kr-ghosh/AI_Course`  
 **Governing curriculum:** `MASTER_COURSE_BLUEPRINT.md`  
-**Status:** Initialised; learner progress not yet verified from lesson/practical evidence.
+**Status:** Active — Day 1 officially started.
 
 ## Current checkpoint
-- Course day: Not verified.
-- Exact topic/subtopic: Not verified.
-- Last completed lesson: Not established from the planner alone.
-- Practical/project evidence: Not yet reconciled.
-- Quiz/milestone results: Not yet reconciled.
-- Interview/research-paper progress: Not yet reconciled.
-- Weak areas/revision due: Not yet reconciled.
-
-**Important:** The planner defines intended curriculum, not proof of learner completion. Do not assume Day 1 is complete or mark anything demonstrated without evidence. At first study session, inspect prior notes/work and confirm the actual checkpoint with the learner if repository evidence is absent.
-
-## Next action
-1. Reconcile any existing learner work, notebooks, quiz attempts and prior notes.
-2. Confirm the exact starting checkpoint.
-3. If no prior evidence exists, begin Day 1 — Linear Algebra for Machine Learning.
-4. Update this file after each meaningful session.
+- Course day: Day 1 — Linear Algebra for Machine Learning.
+- Exact topic/subtopic: Mathematical objects — scalars, vectors, matrices, tensors; array dimensions, shape, axes and indexing concepts.
+- Last taught: Concept 1.1 — Mathematical Objects in AI/ML.
+- Coverage status: Introduced (conceptual explanation delivered; no practical or assessment evidence yet).
+- Practical/project evidence: None yet; no code execution claimed.
+- Quiz/milestone results: None.
+- Interview/research-paper progress: Not started.
+- Weak areas/doubts: Awaiting learner feedback.
+- Next concept: Vector components, coordinate interpretation, vector addition/subtraction, scalar multiplication and linear combinations.
 
 ## Latest session
-No verified session has yet been recorded in this repository.
+### 2026-11-01 — Session 1 — Day 1: Mathematical Objects
+- Official Day 1 start confirmed by learner.
+- Explained scalar, vector, matrix and tensor with AI/ML examples.
+- Explained shape, number of dimensions, axes and basic indexing intuition.
+- Distinguished array dimensionality from mathematical matrix rank.
+- Connected image batches and neural-network data to tensor shapes.
+- No code/practical/assessment was requested or executed.
+- Learner understanding and doubts: Not yet assessed; learner invited to ask questions.
+- Exact next checkpoint: Day 1 syllabus — Vectors: components, coordinate interpretation, addition, subtraction, scalar multiplication and linear combinations.
+
+## Next action
+Continue concept-by-concept from vector fundamentals after the learner is ready. Do not deliver exercises, practicals, quizzes or assessments unless the learner has learned the relevant concepts and explicitly requests that specific activity.
 
 ## Status definitions
 - Not started — not yet covered.
@@ -33,14 +38,12 @@ No verified session has yet been recorded in this repository.
 - Deferred — postponed intentionally; record reason and next action.
 
 ## Sync record
-Record date, commit SHA and files updated only after successful GitHub verification.
-
+Repository files were updated on 2026-11-01. Verify resulting GitHub content/commit before claiming successful synchronization.
 
 ## Teaching delivery preference (mandatory)
 - Deliver lessons concept by concept; never provide an entire course day in one response.
 - Stop at a natural checkpoint for questions or clarification. Do not invite a quiz, exercise or knowledge check unless the learner explicitly opts in.
 - Record the exact last concept taught and the next concept to teach. A day can span multiple sessions.
-
 
 ## Learner-controlled teaching, practice and assessment (mandatory)
 - The default is concept-first teaching, one concept or small connected concept group at a time. Explain thoroughly using intuition, terminology, derivations, worked examples, diagrams and AI/ML connections as appropriate.
