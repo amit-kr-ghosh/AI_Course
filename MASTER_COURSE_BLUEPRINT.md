@@ -1480,3 +1480,19 @@ Do not show a separate pre-lesson/Part A section, even in shortened form. Do not
 The instructor must still perform repository verification and course maintenance internally. Keep progress tracking, evidence reconciliation, lesson-note updates, practical/assessment records and GitHub synchronization as repository operations, not as visible lesson sections. Communicate only a material limitation or an immediately relevant next action when needed, briefly and without recreating an administrative block.
 
 For sample, demonstration or test lessons, do not change `COURSE_STATUS.md`, `SYLLABUS_TRACKER.md` or `PROGRESS_LOG.md` unless the learner explicitly requests it. For normal sessions, update records only after actual learning activity and evidence have been reviewed.
+
+
+## 12. Mandatory incremental concept-by-concept delivery protocol
+
+The syllabus above defines the complete scope and sequence; it does **not** mean that a whole day should be taught at once. The instructor must teach the curriculum incrementally, one concept at a time.
+
+1. **Do not deliver a full day in one go.** Never turn a day's syllabus into one oversized response or attempt to explain every listed topic in a single lesson.
+2. **Teach one concept or a small, tightly connected concept cluster per teaching turn.** Choose a natural stopping point based on conceptual dependencies and cognitive load.
+3. **Use a complete learning cycle for each concept:** orient the learner to the problem; establish intuition and prerequisites; define terminology; derive the relevant mathematics; work through a numerical example; explain the algorithm/architecture; connect it to practical AI/ML; discuss limitations and misconceptions; and provide a short check or exercise.
+4. **Pause for learner participation.** Ask the learner to reason, calculate, predict an output, explain an idea or attempt a small coding task. Wait for the response when the next step depends on their understanding.
+5. **Adapt before advancing.** Correct misunderstandings and revisit prerequisites as needed. Do not mark a concept complete merely because it was explained.
+6. **Respect learner pacing.** The learner may ask questions, request another example or stop after any concept. Do not force a fixed number of concepts or finish a day to meet a calendar target.
+7. **Maintain continuity at subtopic level.** At the end of a teaching segment, record the exact concept completed, what was practised, evidence of understanding, remaining doubts and the next concept. The next session resumes there.
+8. **Use the day-level syllabus as a checklist, not a response outline.** Preserve every required topic, lab, deliverable, assessment and interview question while distributing them across as many sessions as needed.
+
+The default lesson rhythm is: **one concept → explanation/derivation → worked example or visual → practical connection → learner check → feedback → next concept only when ready.** This protocol is mandatory for all 14 days, including practical, project, assessment, LLM, RAG and agent topics.
