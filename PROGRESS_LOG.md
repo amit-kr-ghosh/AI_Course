@@ -31,3 +31,12 @@ _No verified study-session entries yet._
 
 ## Handover rule
 Every session must leave a precise next checkpoint. A course day can span multiple sessions or chats. Never advance just to preserve a calendar schedule.
+
+
+## Mandatory concept-by-concept teaching and handover
+Every lesson is delivered in small, coherent concept units—not as a full-day information dump. Pause for learner questions and a knowledge check at natural boundaries. Do not advance past a learner check that needs a response. At session end, record:
+- Exact concept(s) taught in this segment:
+- Learner participation / answer evidence:
+- Misconceptions corrected or still outstanding:
+- Exact next concept (do not skip ahead):
+A day may span multiple sessions. The next session must resume from this exact subtopic checkpoint.
