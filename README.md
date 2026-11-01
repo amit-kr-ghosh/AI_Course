@@ -57,3 +57,12 @@ There is no visible pre-lesson section and no separate administrative section af
 Repository verification, progress reconciliation, file updates, GitHub synchronization and session handover remain instructor-side/course-maintenance tasks. Do not show routine verification tables, file inventories, status summaries or progress reports in the learner-facing lesson. If a material limitation or an important checkpoint must be communicated, do so briefly and only when relevant.
 
 For sample, demonstration or test lessons, do not change official progress records unless the learner explicitly asks. For normal sessions, update records only after actual learning activity and evidence have been reviewed.
+
+
+## Topic-by-topic teaching protocol (mandatory)
+- Never deliver an entire course day in one response or one uninterrupted lesson.
+- Teach incrementally, moving from one concept to the next in small, coherent teaching units. A unit may be a single concept or a tightly related group of sub-concepts.
+- For each unit, explain the intuition, prerequisites, terminology, relevant mathematics, a worked example and an AI/ML connection where appropriate. Add code, diagrams or exercises when useful.
+- Pause at natural checkpoints for the learner to predict, solve, explain or ask questions. Assess the response and address misunderstandings before proceeding.
+- Continue only when the learner is ready; do not automatically dump the remaining topics. A course day may span many short sessions.
+- Keep a precise subtopic checkpoint so the next session resumes exactly where the previous one stopped.
