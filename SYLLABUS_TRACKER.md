@@ -34,3 +34,7 @@ Track the nine projects, daily interview practice, research-paper reading and cu
 3. Record deferred items and exact next action.
 4. Do not equate quiz score with professional competence.
 5. Reconcile this tracker with Course Status and Progress Log every session.
+
+
+## Concept-by-concept session tracking rule
+Do not mark an entire day complete because its topics were presented in one response. Teach and track individual syllabus subtopics (or small, explicitly named concept clusters). Update a topic's status only when the corresponding learning activity and evidence justify it. Record the exact last concept reached and next concept in the session handover. Pause for learner participation between concepts; never deliver a whole day in one go.
