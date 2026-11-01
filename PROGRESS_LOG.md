@@ -34,7 +34,7 @@ Every session must leave a precise next checkpoint. A course day can span multip
 
 
 ## Mandatory concept-by-concept teaching and handover
-Every lesson is delivered in small, coherent concept units—not as a full-day information dump. Pause for learner questions and a knowledge check at natural boundaries. Do not advance past a learner check that needs a response. At session end, record:
+Every lesson is delivered in small, coherent concept units—not as a full-day information dump. Pause for learner questions and clarification at natural boundaries; do not add a knowledge check unless explicitly requested. Do not advance past a learner check that needs a response. At session end, record:
 - Exact concept(s) taught in this segment:
 - Learner participation / answer evidence:
 - Misconceptions corrected or still outstanding:
@@ -50,3 +50,10 @@ A day may span multiple sessions. The next session must resume from this exact s
 - Preserve all syllabus activities as available curriculum requirements, but treat them as opt-in at the learner's request or when the learner explicitly agrees to the proposed activity. Never silently delete syllabus requirements.
 - When the learner asks to learn a concept deeply, stay with that concept, explain it from first principles, explore examples and misconceptions, and do not advance prematurely.
 - Record only activities actually requested and completed. Do not record quiz, practical, assessment or implementation evidence when none was requested or performed.
+
+
+## Explicit opt-in reminder (mandatory)
+- The learner's default is to continue learning concepts only. A request to continue the course, move to the next topic, or go further in the syllabus is **not** permission to start a quiz, assessment, practical, coding exercise, homework, project or interview drill.
+- If the learner appears to drift into one of those activities without clearly asking to begin it, gently remind them of their standing preference and pause. Ask whether they explicitly want to opt in before starting; do not begin the activity while intent is ambiguous.
+- If the learner clearly and explicitly requests a specific activity, that is permission for that activity only. Do not bundle in other assessments or practical work, and return to concept-first teaching afterward unless asked otherwise.
+- Do not repeatedly interrupt or seek confirmation during ordinary concept teaching. The reminder is needed only when an opt-in activity is about to begin and the learner's intent is unclear.
