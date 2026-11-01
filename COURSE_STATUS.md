@@ -34,3 +34,9 @@ No verified session has yet been recorded in this repository.
 
 ## Sync record
 Record date, commit SHA and files updated only after successful GitHub verification.
+
+
+## Teaching delivery preference (mandatory)
+- Deliver lessons concept by concept; never provide an entire course day in one response.
+- Stop at a natural checkpoint, invite the learner to work through a check/question, and continue after their response or request.
+- Record the exact last concept taught and the next concept to teach. A day can span multiple sessions.
