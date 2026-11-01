@@ -6,7 +6,22 @@ Chronological record of actual learning sessions. Add newest entries at the top.
 Repository workspace created. No learner progress has been assumed or marked complete. Reconcile prior work before choosing a starting point.
 
 ## Session history
-_No verified study-session entries yet._
+
+### 2026-11-01 — Session 1 — Day 1: Mathematical Objects in AI/ML
+- Starting checkpoint: No prior learner progress recorded; repository status and tracker showed all topics not started.
+- Learning objectives: Understand the mathematical objects used to represent numerical information in AI/ML.
+- Concepts explained: Scalar, vector, matrix, tensor; shape, number of dimensions, axes and indexing intuition; distinction between array dimensionality and mathematical matrix rank.
+- Mathematical examples: Interpreted a 2 x 3 matrix and an image-batch tensor shape (32, 224, 224, 3).
+- Code written and executed: None.
+- Lesson artifact: Lessons/Day_01_Concept_01_Mathematical_Objects.md.
+- Quiz/practical/interview: None requested or performed.
+- Research reference: NumPy official documentation on ndarray shape, dimensions and axes.
+- Learner understanding: Not yet assessed; learner invited to ask questions.
+- Outstanding doubts: Awaiting feedback; matrix-rank terminology reserved for later detailed study.
+- Ending checkpoint: Mathematical objects, dimensions, shape and axes introduced.
+- Next action: Vector components, coordinate interpretation, addition, subtraction, scalar multiplication and linear combinations.
+- Files updated: COURSE_STATUS.md, SYLLABUS_TRACKER.md, PROGRESS_LOG.md, Lessons/Day_01_Concept_01_Mathematical_Objects.md.
+- GitHub commit SHA: Record after final verification.
 
 ## Session entry template
 
